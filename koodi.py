@@ -27,6 +27,12 @@ def komennot():
 
 
 # Funktio tulostaa pelaajien tiedot jäsentäen tulostuksen siistiksi.
+# Tulostusmuoto esimerkki, viisi eniten pisteitä tehnyttä pelaajaa:
+# Leon Draisaitl       EDM  43 + 67 = 110
+# Connor McDavid       EDM  34 + 63 =  97
+# David Pastrnak       BOS  48 + 47 =  95
+# Artemi Panarin       NYR  32 + 63 =  95
+# Nathan MacKinnon     COL  35 + 58 =  93
 def tulosta(pelaaja: dict):
     nimi = pelaaja['name']
     joukkue = pelaaja['team']
