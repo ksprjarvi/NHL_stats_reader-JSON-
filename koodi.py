@@ -27,7 +27,6 @@ def komennot():
 
 
 # Funktio tulostaa pelaajien tiedot jäsentäen tulostuksen siistiksi.
-# Funktiota käytetään kaikissa tulostuksissa. 
 def tulosta(pelaaja: dict):
     nimi = pelaaja['name']
     joukkue = pelaaja['team']
